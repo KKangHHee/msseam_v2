@@ -1,0 +1,17 @@
+.navList ul {
+  gap: 0.9375rem;
+}
+
+.navList li {
+  margin: 0;
+}
+
+/* 640 이상일때 */
+@media (min-width: 640px) {
+  .navList ul {
+    gap: 0.625rem;
+  }
+  .navList li {
+    margin: 0 0.625rem;
+  }
+}
