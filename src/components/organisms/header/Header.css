@@ -1,0 +1,25 @@
+.logo {
+  background-image: url('/src//assets/logo/CatLogo.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 2.1875rem;
+  height: 1.875rem;
+}
+.header-top {
+  margin-bottom: 1.37rem; /* m: 0.26 */
+}
+
+.header-top,
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: 640px) {
+  .logo {
+    background-image: url('/src//assets/logo/mlogo.png');
+    width: 14.875rem;
+    height: 4.875rem;
+  }
+}

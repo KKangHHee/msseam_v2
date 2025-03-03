@@ -7,16 +7,6 @@ export type Color =
   | 'purple'
   | 'alarm-red';
 
-// export const commonColor = {
-//   black: '#222',
-//   white: '#fff',
-//   gray: '#a7a7a7',
-//   darkGray: '#83899b',
-//   lightPurple: '#dacaff',
-//   purple: '#ad71ea',
-//   alarmRed: '#ff5c5c',
-// };
-
 export const badgeColor = {
   NEWBIE: '#80E045', // 초록색
   엠비티라노: '#00AF76', // 청록색
