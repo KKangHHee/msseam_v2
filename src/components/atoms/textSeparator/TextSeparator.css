@@ -1,15 +1,31 @@
+.textSeparator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .textSeparator li {
   display: flex;
   align-items: center;
 }
+
 .textSeparator button,
 .textSeparator span {
   color: var(--gray);
   font-weight: var(--font-weight-regular);
-  font-size: var(--font-footnote);
+  font-size: var(--font-caption);
   margin: 0 0.2rem;
 }
 
-.textSeparator button:hover {
+.textSeparator button:hover,
+.textSeparator span:hover {
   color: var(--black);
+}
+
+@media (min-width: 640px) {
+  .textSeparator button,
+  .textSeparator span {
+    font-size: var(--font-footnote);
+    margin: 0 0.2rem;
+  }
 }
