@@ -1,0 +1,33 @@
+.btn {
+  border-radius: 1.875rem;
+}
+
+.gray {
+  background-color: var(--gray);
+}
+.light-purple {
+  background-color: var(--light-purple);
+}
+.purple {
+  background-color: var(--purple);
+}
+
+.sm {
+  padding: 0.25rem 1rem;
+}
+.md {
+  padding: 0.625rem 1.25rem;
+}
+.lg {
+}
+@media (min-width: 640px) {
+  .sm {
+    padding: 0.5rem 2.1875rem;
+    font-size: 1rem;
+  }
+  .md {
+    padding: 0.625rem 1.25rem;
+  }
+  .lg {
+  }
+}
