@@ -1,0 +1,11 @@
+.loginAndProfile-login {
+  gap: 0.41rem;
+  display: flex;
+  flex-direction: column;
+}
+.loginAndProfile-login span {
+  color: var(--gray1);
+  display: block;
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-footnote);
+}
